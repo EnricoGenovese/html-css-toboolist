@@ -8,10 +8,9 @@
 
  /* elements */
  body {
-     background-color: #D1D6D9;
-     font-family: Arial, Helvetica, sans-serif, system-ui;
-     font-size: 1.1em;
-     font-weight: 500;
+    background-color: #D1D6D9;
+    
+    font-weight: 500;
 }
  
 header {
@@ -77,6 +76,7 @@ button {
 
 .cross {
     list-style: "\2715";
+
 }
 /* colors */
 .small-text {
