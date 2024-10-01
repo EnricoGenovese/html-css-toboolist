@@ -33,6 +33,10 @@ h1 {
     padding-left: 60px;
 }
 
+h3 {
+    display: inline-block;
+    padding-left: 5px;
+}
 
 #list-bg {
     background-color: #ffffff;
@@ -44,15 +48,22 @@ ul, li {
     padding-bottom: 10px;
     padding-top: 10px;
     padding-left: 20px;
-    list-style: none;  
-    
+    list-style: none;     
 }
 
 button {
     display: inline-block;
     text-align: center;
-    /* line-height: 10px; */
     border-radius: 30%;
+}
+
+.ul-mark {
+    width: 0;
+	height: 0;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-top: 16px solid black;
+    display: inline-block;
 }
 /* colors */
 .small-text {
@@ -91,9 +102,5 @@ button {
     background-color: #B0C926;
 }
 
-.triangle-down {
-	width: 0;
-	height: 0;
-	border-left: 10px solid transparent;
-	border-right: 10px solid transparent;
-	border-top: 22px solid black;
+
+	
