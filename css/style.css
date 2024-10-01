@@ -9,7 +9,9 @@
  /* elements */
  body {
      background-color: #D1D6D9;
-     font-family: Arial, Helvetica, sans-serif;
+     font-family: Arial, Helvetica, sans-serif, system-ui;
+     font-size: 1.1em;
+     font-weight: 500;
 }
  
 header {
@@ -24,6 +26,7 @@ header {
 header div {
     padding-top: 10px;
 }
+
 h1 {
     vertical-align: middle;
     font-size: 3em;
@@ -34,17 +37,23 @@ h1 {
 #list-bg {
     background-color: #ffffff;
     width: 70%;
-    height: 1000px;
     margin: 0 auto;
     /* border: 5px solid black; */
 }
 ul, li {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     padding-top: 10px;
     padding-left: 20px;
-    /* list-style: none; */   
+    list-style: none;  
+    
 }
 
+button {
+    display: inline-block;
+    text-align: center;
+    /* line-height: 10px; */
+    border-radius: 30%;
+}
 /* colors */
 .small-text {
     font-size: 0.8em;
@@ -85,6 +94,6 @@ ul, li {
 .triangle-down {
 	width: 0;
 	height: 0;
-	border-left: 25px solid transparent;
-	border-right: 25px solid transparent;
-	border-top: 50px solid #555;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 22px solid black;
