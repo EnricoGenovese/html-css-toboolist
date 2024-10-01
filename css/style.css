@@ -3,3 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    margin-bottom: 2em;
+    height: 120px;
+    background-image: url("../img/Logo.png");
+    background-repeat: no-repeat;
+}
+h1{
+    vertical-align: middle;
+    font-size: 3em;
+    padding-left: 60px;
+}
+
+body {
+    background-color: #D1D6D9;
+}
+
+#list-bg {
+    background-color: #ffffff;
+    width: 70%;
+    height: 1000px;
+    margin: 0 auto;
+    /* border: 5px solid black; */
+}
