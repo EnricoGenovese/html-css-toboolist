@@ -1,23 +1,29 @@
 *{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
+    max-width: 1200px;
 }
 
 header {
     margin-bottom: 2em;
-    height: 120px;
+    height: 80px;
+    background-color: #ffffff;
     background-image: url("../img/Logo.png");
     background-repeat: no-repeat;
 }
-h1{
+
+
+h1 {
     vertical-align: middle;
     font-size: 3em;
     padding-left: 60px;
 }
 
+
 body {
     background-color: #D1D6D9;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #list-bg {
@@ -26,4 +32,40 @@ body {
     height: 1000px;
     margin: 0 auto;
     /* border: 5px solid black; */
+}
+
+.small-text {
+    font-size: 0.8em;
+}
+
+.white-text {
+    color: #ffffff;   
+}
+
+.gray-text {
+    color: #D1D6D9
+}
+
+.blue-button {
+    background-color: #47ADF1;
+}
+
+.violet-button {
+    background-color: #9C72E4;
+}
+
+.green-button {
+    background-color: #64C0A9;
+}
+
+.orange-button {
+    background-color: #F09B29;
+}
+
+.pink-button {
+    background-color: #D75F9E;
+}
+
+.olive-button {
+    background-color: #B0C926;
 }
