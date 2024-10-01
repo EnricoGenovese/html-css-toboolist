@@ -65,6 +65,19 @@ button {
 	border-top: 16px solid black;
     display: inline-block;
 }
+
+.li-symbol {
+    list-style-position: inside;    
+}
+
+.check {
+    list-style: "\2713";
+    
+}
+
+.cross {
+    list-style: "\2715";
+}
 /* colors */
 .small-text {
     font-size: 0.8em;
